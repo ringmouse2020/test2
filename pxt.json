@@ -2,13 +2,16 @@
     "name": "test2",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "MCP23017": "pkg:MCP23017.json"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "MCP23017.json",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
